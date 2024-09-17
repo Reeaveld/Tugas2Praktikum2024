@@ -7,11 +7,11 @@ NIM : H1D022062
 Shift Baru: C
 
 ## Screenshot
-![Lampiran Form](formbenar.png)
+![Lampiran Form](form_benar.png)
 
 Pada halaman form, data yang diinput oleh pengguna disimpan di dalam masing-masing `TextEditingController` untuk setiap field (nama, nim, tahun). Ketika tombol "Simpan" ditekan, data dari controller tersebut akan diambil dan disimpan ke dalam variabel lokal (nama, nim, dan tahun). Setelah itu, menggunakan `Navigator`, halaman akan berpindah ke halaman `TampilData` dengan membawa data tersebut sebagai parameter dalam konstruktor `TampilData`.
 
-![Lampiran Hasil](hasilbenar.png)
+![Lampiran Hasil](hasil_benar.png)
 
 Di halaman `TampilData`, data yang diterima melalui konstruktor (`nama`, `nim`, dan `tahun`) digunakan untuk menghitung umur dan ditampilkan sebagai teks dalam widget `Text`. Data ini tetap statis karena ditransfer melalui konstruktor dan diakses secara langsung di dalam widget Stateless.
 
